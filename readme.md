@@ -1,0 +1,3 @@
+This is the project of Fundamental Experiment of Digital Logic and Processor Summer 2021 in Tsinghua University EE department. In this project, I implemented a 5-stage pipeline MIPS processor on a Xilinx Artix-7 FPGA. I used forwarding and stall to deal with hazards such as load-use. Then I used this processor to solve a package problem. I used Mars to qualify my assembly code, and I transferred it to 32-bit machine code, and then I loaded these instructions to the memory. I also used UART to input the value and weight of packages and FPGA outputted the maximum of value under the constraints. The clock frequence can reach 100MHz.
+
+![](https://github.com/zhang677/MyPicBed/raw/master//img/Pipeline.jpeg)
